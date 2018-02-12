@@ -2,17 +2,11 @@ import jwtDecode from 'jwt-decode'
 
 export default function ({store, req}) {
   if (process.server && !store.getters['modules/user/isAuthenticated']) {
-    console.log('[CHECK-AUTH] - is server')
-
     let uid = getUserFromSession(req)
-    console.log('user from session:', uid)
     if (!uid) {
-      console.log('User not found in session, looking up in cookie')
       uid = getUserFromCookie(req)
     }
-
     if (uid) {
-      console.log('User found, going to initialise the user object by uid in the store')
       store.dispatch('modules/user/saveUID', uid)
     }
   }
