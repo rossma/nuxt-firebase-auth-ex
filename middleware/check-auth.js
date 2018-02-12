@@ -1,6 +1,6 @@
 import jwtDecode from 'jwt-decode'
 
-export default function ({store, req, app}) {
+export default function ({store, req}) {
   if (process.server && !store.getters['modules/user/isAuthenticated']) {
     console.log('[CHECK-AUTH] - is server')
 
