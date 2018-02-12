@@ -15,7 +15,6 @@ export const getters = {
   }
 }
 
-
 export const actions = {
 
   async login({dispatch, state}, uid) {
