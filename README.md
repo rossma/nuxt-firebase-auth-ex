@@ -1,4 +1,4 @@
-# nuxt-firebsae-auth-ex
+# nuxt-firebase-auth-ex
 
 > This project is used to demonstrate how to design and setup your NUXT project to manage default behaviour within 
 Firebase authentication. By default Firebase persists the users logged in status on successful authentication. 
