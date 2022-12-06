@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-session": "^1.15.6",
     "firebase": "^4.9.1",
     "jwt-decode": "^2.2.0",
