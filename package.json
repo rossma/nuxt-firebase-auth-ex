@@ -19,7 +19,7 @@
     "express-session": "^1.15.6",
     "firebase": "^4.9.1",
     "jwt-decode": "^2.2.0",
-    "nuxt": "^1.2.1",
+    "nuxt": "^3.0.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
